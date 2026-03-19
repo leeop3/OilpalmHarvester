@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Palm Harvester</string>
+    <string name="new_entry">New Harvest Entry</string>
+    <string name="history">My Reports</string>
+    <string name="harvester_id">Harvester ID</string>
+    <string name="block_id">Block ID</string>
+    <string name="ripe_bunches">Ripe Bunches</string>
+    <string name="empty_bunches">Empty Bunches</string>
+    <string name="save_entry">Save Entry</string>
+    <string name="send_now">Send Now</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="gps_waiting">Acquiring GPS...</string>
+</resources>

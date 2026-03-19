@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text="@string/new_entry" android:textSize="24sp" android:textStyle="bold" android:layout_marginBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvGpsStatus" android:text="@string/gps_waiting" android:textColor="@color/orange" android:layout_marginBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etHarvesterId" android:hint="@string/harvester_id" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etBlockId" android:hint="@string/block_id" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etRipe" android:hint="@string/ripe_bunches" android:inputType="number" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etEmpty" android:hint="@string/empty_bunches" android:inputType="number" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnCapturePhoto" android:text="@string/capture_photo" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvPhotoPath" android:text="No photo" android:layout_marginBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnSave" android:text="@string/save_entry" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnSend" android:text="@string/send_now" android:layout_marginBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnHistory" android:text="@string/history" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
